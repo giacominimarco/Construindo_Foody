@@ -1,0 +1,41 @@
+:root {
+    --body-color: white;
+    --text-primary: #111111;
+    --text-secondary: #777777;
+    --text-tertiary: #999999;
+    --background-color-image: #FBDFDB;
+    --footer-color: #EEEEEE;
+}
+
+*  {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height:100%;
+    width:800px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+
+    width: 100%;
+    padding: 1.23rem 0 1.23rem;
+
+    text-align: center;
+    font-size: 14px;
+
+    background-color: var(--footer-color);
+    color: var(--text-tertiary);
+}
