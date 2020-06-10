@@ -23,7 +23,6 @@
 <p align="center">
   <a href="#file_cabinet-materiais">Materiais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-desafios">Desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -38,10 +37,6 @@
 - [Página de descrição](desafios/02-2-pagina-descricao.md)
 - [Página de cursos e iframe](desafios/02-3-pagina-cursos-e-iframe.md)
 - [Construindo Foodfy](desafios/02-foodfy.md)
-
-## :calendar: Entrega
-
-Esses desafios **não precisam ser entregues** e não receberão correção. Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
 
 ## :memo: Licença
 
