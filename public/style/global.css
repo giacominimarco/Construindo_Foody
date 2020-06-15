@@ -1,41 +1,68 @@
 :root {
     --body-color: white;
+    --text-sobre: #444444;
     --text-primary: #111111;
     --text-secondary: #777777;
     --text-tertiary: #999999;
-    --background-color-image: #FBDFDB;
+    --retalgle-color: #FBDFDB;
     --footer-color: #EEEEEE;
 }
 
 *  {
     margin:0;
     padding:0;
-}
-
-html, body {
-    height:100%;
-    width:800px;
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-
+body {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-main {
+header {
+    position: relative;
+    align-items: center;
 
+    width: 100%;
+    height: 50px;
+
+    padding: 1.23rem 0 1.23rem;
+    display: flex;
+}
+
+header img {
+    display: block;
+    padding: 0 50px 0 0 ;
+}
+
+header a {
+    padding: 0 0 0 30px;
+    color: var(--text-primary);
+    font-weight: 400;
+    text-decoration: none;
+    
+    transition: font-weight 300ms;
+}
+
+header a:hover {
+    font-weight: bold;
 }
 
 footer {
-    position:absolute;
+    position: fixed;
     bottom:0;
-
     width: 100%;
+    
     padding: 1.23rem 0 1.23rem;
-
+    
     text-align: center;
     font-size: 14px;
-
+    
     background-color: var(--footer-color);
     color: var(--text-tertiary);
 }

@@ -1,0 +1,29 @@
+/* REceitas acessadas */
+header img {
+    cursor: pointer;
+}
+
+.receitas {
+    margin: 50px auto;
+    margin-bottom: 80px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;  
+    
+}
+
+.receita img {
+    width: 100%;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.receita h4 {
+    margin-top: 10px ;
+}
+
+.receita p {
+    margin: 5px auto 10px auto;
+}
